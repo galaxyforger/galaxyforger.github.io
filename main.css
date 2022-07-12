@@ -1,0 +1,104 @@
+body {
+    font-family: Verdana, Arial, 'Microsoft YaHei';
+    font-size: 15px;
+    color: black;
+    margin: auto;
+    padding: 0 5px;
+    background-color: #535353;
+}
+
+div,
+.pagebody div img,
+table,
+td,
+p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+    text-align: center;
+}
+
+b {
+    font-weight: bold;
+}
+
+.header {
+    width: 100vw;
+    max-width: 950px;
+    height: 32px;
+    padding: 4px;
+    margin: 0 auto;
+    background-color: #535353;
+    box-sizing: border-box;
+}
+
+.navy {
+    font-family: Arial, 'microsoft YaHei', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navy a {
+    color: inherit;
+    margin: auto;
+    padding: 0px;
+}
+
+.content {
+    width: 100vw;
+    max-width: 950px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #c6c6c6;
+    height: auto;
+}
+
+.content-inner {
+    width: 100vw;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: black;
+    background-color: #c6c6c6;
+    text-align: center;
+}
+
+.page {
+    background-color: #efefef;
+}
+
+.pagecontent {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.pagehead {
+    padding: 15px 0 10px 0;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Courier, Verdana, 'Microsoft YaHei', sans-serif, monospace;
+}
+
+.pagebody {
+    border-spacing: 0;
+    font-family: Courier, Verdana, 'Microsoft YaHei', monospace;
+}
+
+.pagebody img {
+    width: 100vw;
+    max-width: 100%;
+}
+
+.pagebody span img,
+.pagebody div img {
+    width: auto;
+    margin: 0;
+}
+
+.pagebody div {
+    vertical-align: middle;
+    padding: 15px 20px 0 20px;
+}
